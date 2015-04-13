@@ -1,15 +1,23 @@
+
+
 <?php
 
 require_once __DIR__.'/vendor/autoload.php';
 require_once  'CpanelController.php';
 
+
 $user = "test@educativadistribuidora.com";
 $password = "Support2015";
 
+
+
+
 $cpanel = new CpanelController();
 $class = $cpanel->ConectToCpanel($user, $password);
-echo $cpanel->ChangePasswordCpanel($class, "", "");
 
+echo "<html>";
+echo $cpanel->ChangePasswordCpanel($class, "Support2020", "Support2020");
+echo "</html>";
 
 //AREA DE PRUEBA ...
 /*use Goutte\Client;
