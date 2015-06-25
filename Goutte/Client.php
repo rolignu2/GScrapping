@@ -11,6 +11,7 @@
 
 namespace Goutte;
 
+
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface as GuzzleClientInterface;
 use GuzzleHttp\Exception\RequestException;

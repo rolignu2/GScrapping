@@ -1,2 +1,2 @@
 {
- "require": { "fabpot/goutte" : "1.0.*@dev" } }
+ "require": { "fabpot/goutte" : "^3.1" } }
